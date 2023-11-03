@@ -1,10 +1,11 @@
 *** Settings ***
-Resource                        ../Resources/common.robot
+Resource                        common.robot
 Suite Setup                     Setup Browser
 Suite Teardown                  End suite
 
 
 *** Test Cases ***
+    [Documentation]             Testing the commit option in Copado
 Create Account Growmore
     [Tags]                      Account                     New Account
     Appstate                    Home
