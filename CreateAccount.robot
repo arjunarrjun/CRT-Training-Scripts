@@ -5,7 +5,7 @@ Suite Teardown                  End suite
 
 
 *** Test Cases ***
-    [Documentation]             Testing the commit option in Copado
+    [Documentation]            Changes from Git - Testing the commit option in Copado
 Create Account Growmore
     [Tags]                      Account                     New Account
     Appstate                    Home
